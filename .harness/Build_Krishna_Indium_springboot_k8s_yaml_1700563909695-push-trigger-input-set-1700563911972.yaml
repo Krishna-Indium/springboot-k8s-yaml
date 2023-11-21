@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Krishna_Indium_springboot_k8s_yaml_1700563909695-push-trigger-input-set
+  identifier: Build_Krishna_Indium_springboot_k8s_yaml_1700563909695pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Krishna_Indium_springboot_k8s_yaml_1700563909695
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
